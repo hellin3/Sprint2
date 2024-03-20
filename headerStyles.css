@@ -1,0 +1,87 @@
+/* Tarayıcı varsayılan stillerini sıfırla */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    font-family: Arial, sans-serif;
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    margin-top: 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu a {
+    color: white; 
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
+/* Dikey hizalamayı sağlamak için container'a stil ekle */
+.content {
+    display: flex; /* İçeriğin flex konteynır olması */
+    justify-content: space-between; /* İçeriği yatay olarak sağa ve sola hizalar */
+}
+
+/* Resimlerin etrafındaki çerçeve */
+.image-container {
+    margin-top: 20px; /* İmge kutuları arasında biraz boşluk bırakır */
+}
+
+/* Resimlerin etrafındaki çerçeve */
+.image-container img {
+    border: 5px solid #333; /* Çerçeve rengi ve kalınlığı */
+    border-radius: 10px; /* Kenar yuvarlaklığı */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+}
+
+.image-container:last-child img {
+    width: 350px; /* Genişlik */
+    height: auto; /* Otomatik yükseklik ayarı */
+}
+
+/* Intro stilini güncelleme */
+/* Intro stilini güncelleme */
+.intro {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Intro metnini içeren paragrafın stilini güncelleme */
+.intro-text {
+    font-family: 'Times New Roman', Times, serif; /* Yazı tipini güncelleme */
+    font-size: 22px; /* Font boyutunu güncelleme */
+    font-style: italic; /* İtalik font stili */
+    line-height: 1.6; /* Satır yüksekliğini güncelleme */
+    color: #333; /* Yazı rengini güncelleme */
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+

@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3; /* Daha sade arka plan rengi */
+    color: #333; /* Daha koyu yazı rengi */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Daha şeffaf bir arka plan rengi */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Daha hafif bir gölgelendirme */
+}
+
+.Support_class {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0066cc; /* Daha parlak bir mavi yazı rengi */
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #0066cc; /* Daha parlak bir mavi yazı rengi */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #0066cc; /* Daha belirgin bir mavi çerçeve */
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Daha açık bir gri arka plan rengi */
+    color: #333; /* Daha koyu yazı rengi */
+    margin-top: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #0066cc; /* Daha parlak bir mavi buton rengi */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005cbf; /* Butonun hover rengi */
+}
