@@ -1,0 +1,19 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    position: fixed; /* Footer'ı sabit bir konumda tut */
+    bottom: 0; /* Sayfanın altına yerleştir */
+    width: 100%; /* Sayfanın genişliği kadar genişlet */
+}
+
+.footer p {
+    margin: 0;
+    font-style: italic;
+}
+
+.content {
+    margin-bottom: 60px; /* Footer'ın sayfa içeriğini örtmemesi için gereken boşluk */
+}
