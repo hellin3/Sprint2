@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-
+/* Define the animation for the gradient background */
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -34,12 +34,12 @@ header {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2rem;/* Setting the font size for the header title */
 }
 
 main {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 600px;/* Limiting the maximum width of the main content *
+    margin: 0 auto;/* Centering the main content */
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
@@ -52,7 +52,7 @@ main {
 }
 
 .input-group {
-    margin-bottom: 20px;
+    margin-bottom: 20px;/* Adding spacing between input groups */
 }
 
 label {
@@ -70,6 +70,7 @@ textarea {
     border-radius: 5px;
 }
 
+/* Enabling vertical resizing for textarea */
 textarea {
     resize: vertical;
 }
@@ -85,7 +86,7 @@ button {
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #555; /* Changing background color on hover */
 }
 
 
