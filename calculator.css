@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -20,15 +21,18 @@ body {
 
 
 .header h1 {
-    font-size: 2rem;
+    font-size: 2rem;/* Make the header title bigger */
 }
 
+/* Customize the appearance of navigation menu links */
 .menu a {
     color: white; 
     text-decoration: none;
     margin-right: 20px;
 }
 
+
+/* Apply an underline effect on hover for menu links */
 .menu a:hover {
     text-decoration: underline;
 }
@@ -36,7 +40,7 @@ body {
 .calculation-section {
     width: 80%; 
     max-width: 800px;
-    margin: 20px auto; 
+    margin: 20px auto; /* Centering the section */
     padding: 40px; 
     border: 2px solid #ccc; 
     border-radius: 20px; 
@@ -56,16 +60,16 @@ body {
 .calculation-section .input-fields,
 .calculation-section .answer-field,
 .calculation-section .calculate-btn {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;  /* Spacing between input fields, answer field, and button */
 }
 footer {
-    text-align: center; /* Metni ortala */
+    text-align: center; 
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #333; /* Footer arka plan rengi */
-    color: #fff; /* Footer metin rengi */
+    background-color: #333; 
+    color: #fff; 
     padding: 10px;
     font-family: Arial, sans-serif;
 }
