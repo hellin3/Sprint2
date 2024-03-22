@@ -6,7 +6,7 @@ body {
     padding: 0;
     background: linear-gradient(to right, #ff9999, #66ccff);
 }
-
+/* Define the animation for the gradient background */
 @keyframes gradientAnimation {
     0% {
         background-position: 0% 50%;
@@ -23,7 +23,7 @@ body {
     animation: gradientAnimation 15s ease infinite;
 }
 
-
+/* Styling for the container holding the panels */
 .container {
     display: flex;
     justify-content: space-around;

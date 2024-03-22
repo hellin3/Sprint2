@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+
+    /* Gradient background */
     background: linear-gradient(to right, #ff9999, #66ccff);
 }
 
@@ -15,10 +17,11 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Provides space between quiz titles */
 .sidebar h2 {
     margin-top: 0;
     font-size: 24px;
-    margin-bottom: 20px; /* Quiz isimleri arasında boşluk sağlar */
+    margin-bottom: 20px; 
 }
 
 .sidebar ul {
@@ -43,6 +46,8 @@ body {
 }
 
 .content {
+
+    /* Adjusted margin to accommodate sidebar */
     margin-left: 240px;
     padding: 20px;
     display: flex;
